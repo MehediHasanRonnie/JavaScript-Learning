@@ -1,0 +1,1 @@
+document.write("javaScript is my fevourite Language");
