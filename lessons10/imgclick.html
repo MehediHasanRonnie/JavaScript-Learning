@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imgClick</title>
+</head>
+<body>
+    <button onclick="picture1()">Mehedi</button>
+    <button onclick="picture2()">Hasan</button>
+     <p></p>
+    <img id="imgId" src="#" alt="" height="300" width="230">
+    <script>
+        var images = document.querySelector("#imgId");
+        function picture1(){
+            images.src ="img/mehedi.jpg";
+        }
+        function picture2(){
+            images.src ="img/hasan.jpg";
+        }
+        
+    </script>
+</body>
+</html>
