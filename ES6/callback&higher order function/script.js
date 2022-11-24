@@ -1,14 +1,14 @@
 //callback function and higherorder function
 console.clear();
-// function square(x) {
-//     console.log(`The square of ${x} : ${x*x}`);   
-// };
-// //square(5);
+function square(x) {
+    console.log(`The square of ${x} : ${x*x}`);   
+};
+//square(5);
 
-// function higherOrderFunction(num,callback) {
-//     callback(num);
-// }
-// higherOrderFunction(6, square);
+function higherOrderFunction(num,callback) {
+    callback(num);
+}
+higherOrderFunction(6, square);
 
 //...............................................................
 
