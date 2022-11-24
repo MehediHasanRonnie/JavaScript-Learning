@@ -22,16 +22,16 @@ const taskFour = () =>{
         resolve ("task 4 is resolved");
     })
 }
-
-// taskOne()
-//   .then((res) =>console.log(res))
-//   .then(taskTwo)
-//   .then((res) =>console.log(res))
-//   .then(taskThree)
-//   .then((res) =>console.log(res))
-//   .then(taskFour)
-//   .then((res) =>console.log(res))
-//   .catch((err) => console.log(err))
+ //using promiss chaining
+taskOne()
+  .then((res) =>console.log(res))
+  .then(taskTwo)
+  .then((res) =>console.log(res))
+  .then(taskThree)
+  .then((res) =>console.log(res))
+  .then(taskFour)
+  .then((res) =>console.log(res))
+  .catch((err) => console.log(err))
   
 // async and await function on ES6
 
