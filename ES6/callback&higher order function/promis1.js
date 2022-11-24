@@ -28,11 +28,11 @@ promise1
 promise2.then((res) => console.log(res));
 
 //print multiple promiss in an array.
-// Promise.all([promise1,promise2])
-// .then((res) => console.log(res));
+Promise.all([promise1,promise2])
+.then((res) => console.log(res));
 
 //usuing disstructuring method
-//Promise.all([promise1,promise2]).then(([res1,res2]) => console.log(res1,res2));
+Promise.all([promise1,promise2]).then(([res1,res2]) => console.log(res1,res2));
 
 // promise.race
 
